@@ -1,12 +1,12 @@
 Package: khaiiir
-Title: R Binding for khaiii which is Korean Analyzer
+Title: R Binding for khaiii which is Korean Morpheme Analyzer
 Version: 0.0.0.9000
 Authors@R: person(given = "Chanyub",
              family = "Park",
              role = c("aut","cre"),
              email = "mrchypark@gmail.com",
              comment = c(ORCID = "0000-0001-6474-2570"))
-Description: What the package does (one paragraph).
+Description: Provides a function to use khaiii which is a Korean morpheme analyzer in R.
 License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
