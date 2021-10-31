@@ -1,0 +1,24 @@
+Package: khaiiir
+Title: R Binding for khaiii which is Korean Analyzer
+Version: 0.0.0.9000
+Authors@R: person(given = "Chanyub",
+             family = "Park",
+             role = c("aut","cre"),
+             email = "mrchypark@gmail.com",
+             comment = c(ORCID = "0000-0001-6474-2570"))
+Description: What the package does (one paragraph).
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://github.com/codingpot/khaiiir
+BugReports: https://github.com/codingpot/khaiiir/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LinkingTo: 
+    cpp11
+SystemRequirements: C++11
+Imports: 
+    tibble
